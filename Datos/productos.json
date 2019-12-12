@@ -1,0 +1,130 @@
+[
+    {
+        "id": 1,
+        "nombre": "CREMA EUCERIN PHS MANOSSX75ML",
+        "Descripcion": "Suaviza y proteger las manos de la resequedad por largo tiempo.",
+        "Precio": "$11.33",
+        "url" : "https://images-na.ssl-images-amazon.com/images/I/41bkSGx4-sL._SY355_.jpg", 
+        "estado": false
+    },
+    {
+        "id": 2,
+        "nombre": "GEL EUCERIN LIMP P-G PURIFYX200ML",
+        "Descripcion": "Protege las manos de la resequedad por largo tiempo.",
+        "Precio": "$20.40",
+        "url" : "http://dhb3yazwboecu.cloudfront.net/310/1589378_m.jpg", 
+        "estado": false
+    },
+    {
+        "id": 3,
+        "nombre": "PAÑAL PEQUEÑINI EX-PROTECCION E1X28",
+        "Descripcion": "Manten limpia la colita del bebé.",
+        "Precio": "$10.40",
+        "url" : "https://jumbocolombiafood.vteximg.com.br/arquivos/ids/3458997-750-750/7707181150588.jpg?v=637039162334030000", 
+        "estado": true
+    },
+    {
+        "id": 4,
+        "nombre": "CORRECT JUANETE PROFOOT G-NIGHT",
+        "Descripcion": "Corrector Juanete Profoot g-night",
+        "Precio": "$10.20",
+        "url" : "https://profoot.co/wp-content/uploads/2016/04/website_goodnight_bunion-2.jpg", 
+        "estado": true
+    },
+    {
+        "id": 5,
+        "nombre": "TON WAS 10 VIALES BEBIBLES",
+        "Descripcion": "Te quita el chuchaqui.",
+        "Precio": "$5.40",
+        "url" : "https://www.farma-vazquez.com/49022-thickbox_default/ton-was-10-viales-bebibles-10-ml.jpg", 
+        "estado": true
+    },
+    {
+        "id": 6,
+        "nombre": "Voltaren Emugel",
+        "Descripcion": "Para los golpes una sobada.",
+        "Precio": "$20.40",
+        "url" : "https://www.watsons.com.sg/medias/EMUGEL-20GBRBRMAHS0800467-10783.jpg?context=bWFzdGVyfGZyb250L3pvb218MTIxMTU3fGltYWdlL2pwZWd8ZnJvbnQvem9vbS84ODUyMTk3MTEzODg2LmpwZ3w1M2I5Y2RlMjUxODE1NDJlOGExZWZmM2ExYmFjMTJiM2I0YWUyMDdlNzQ3ZGI4NDA4NTM5YjY5Njk2NGNiODU2", 
+        "estado": true
+    },{
+        "id": 7,
+        "nombre": "Paracetamol Capsulas",
+        "Descripcion": "Quick and easy to take painkillers that can be used to relieve a number of different aches.",
+        "Precio": "$20.40",
+        "url" : "https://www.chemist-4-u.com/media/catalog/product/cache/1/image/450x/9df78eab33525d08d6e5fb8d27136e95/p/a/paracetamol_capsules_500mg_32s_1200px/Paracetamol_-_32_x_500mg_Capsules_(Brand_May_Vary)_32.jpg", 
+        "estado": true
+    },
+    {
+        "id": 8,
+        "nombre": " Apósitos Adhesivos Tela Elástica Curitas",
+        "Descripcion": "Curitas Adhesivas",
+        "Precio": "$3.40",
+        "url" : "https://http2.mlstatic.com/24-cajas-de-apositos-adhesivos-tela-elastica-curitas-x-8-un-D_NQ_NP_813393-MLA31610391337_072019-Q.jpg", 
+        "estado": true
+    },
+     {
+        "id": 9,
+        "nombre": "VENDA TENSOBAN",
+        "Descripcion": "Venda de poliuretano, traslúcida con mayor facilidad de aplicación y adaptabilidad.",
+        "Precio": "$4.60",
+        "url" : "https://www.farmaciasantamaria.com/7239-large_default/tensoban-venda-pretape-7-cm-x-20-m.jpg", 
+        "estado": true
+    },
+     {
+        "id": 10,
+        "nombre": "Humco Merthiolate Antiseptic",
+        "Descripcion": "Mertiolte para las heridas curabien.",
+        "Precio": "$2.10",
+        "url" : "https://i5.walmartimages.com/asr/c8ec5da6-9f44-4c3f-b66f-8a9fbcb3ea8a_1.c3cdff782943a9aab4ecf53c670a724a.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF", 
+        "estado": true
+    },
+     {
+        "id": 11,
+        "nombre": "Alcohol para heridas ",
+        "Descripcion": "Alcohol que no duele ni quema, no como tu ex.",
+        "Precio": "$5.30",
+        "url" : "https://www.mirnatherapeutics.com/wp-content/uploads/2016/02/desinfectar-heridas-recomendaciones-alcohol-480x479.jpg", 
+        "estado": true
+    },
+     {
+        "id": 12,
+        "nombre": "Agua Oxigenada",
+        "Descripcion": "Agua para desinfectar o decolorar cabello.",
+        "Precio": "$20.00",
+        "url" : "https://www.dosfarma.com/21254-large_default/lisubel-agua-oxigenada-250-ml.jpg", 
+        "estado": true
+    },
+     {
+        "id": 13,
+        "nombre": "Termómetro Clínico ",
+        "Descripcion": "Termómetro clínico para la temperatura alta.",
+        "Precio": "$9.40",
+        "url" : "https://images-na.ssl-images-amazon.com/images/I/51yRYBP4i0L._SX466_.jpg", 
+        "estado": true
+    },
+     {
+        "id": 14,
+        "nombre": "ANALGAN",
+        "Descripcion": "PARACETAMOL (ACETAMINOFÉN) Analgésico y antipirético. Actúa sobre el centro hipotalámico regulador de la temperatura.",
+        "Precio": "$2.90",
+        "url" : "http://www.medicamenta.com.ec/wp-content/uploads/2019/02/medicamenta-analgan-tram-producto.jpg", 
+        "estado": true
+    },
+     {
+        "id": 15,
+        "nombre": "SILDENAFIL",
+        "Descripcion": "Citrato de Sildenafilo utilizado para tratar la disfunción eréctil y la hipertensión arterial pulmonar (HPP).",
+        "Precio": "$12.90",
+        "url" : "https://res.cloudinary.com/zava-www-uk/image/upload/c_fill/q_70/a_exif,f_auto,e_sharpen:100,c_thumb,w_720,h_405/v1544801763/fr/services-and-products/dysfonction-erectile/content-pages/dosage-sildenafil/luxxcluyfpuvxa1fyqnt.jpg", 
+        "estado": true
+    },
+    {
+        "id": 16,
+        "nombre": "COLAGENO HIDROLIZADO CAPS 100",
+        "Descripcion": "Evita la aparición de arrugas e imperfecciones de la piel.",
+        "Precio": "$5.70",
+        "url" : "https://www.sanborns.com.mx/imagenes-sanborns-ii/1200/7502262360135.jpg", 
+        "estado": true
+    }
+    
+]
