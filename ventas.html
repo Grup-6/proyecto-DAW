@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Ventas - Farmacia</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- Custom fonts for this template -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+	 rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+
+	<!-- Custom styles for this template -->
+	<link href="css/business-casual.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+
+
+
+		<div class="container">
+			<a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Farmacia Narcisa De Jesús</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav mx-auto">
+        <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded " href="#" >Farmacia<br>Narcisa de Jesús</a>
+          </li>
+        
+
+      
+          <li class="nav-item active px-lg-4 ">
+            <a class="nav-link"  href="#" role="button"  >NUEVA VENTA</a>
+            
+          </li>
+
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="estadistica.html">Estadística</a>
+          </li>  
+
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="index.html">Cerrar Sesión</a>
+          </li>        
+          
+            
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+<div>   
+    <div class="bg-faded p-2 mx-auto">      
+      <div class="container">
+      <div class="venta">
+        <table class="table">
+          <thead class="thead-dark">
+              <tr><th scope="col">Remover</th>
+              <th scope="col">Código</th>
+              <th scope="col">Nombre</th>
+              <th scope="col">P.V.P</th>
+              <th scope="col">Cantidad</th>
+              <th scope="col">Subtotal</th>
+            </tr>
+          </thead>
+          <tbody id="cart-items">
+            <!-- 
+            <tr class= "cart-row">
+              <th scope="row">
+               <button class="btn btn-danger" type="button">X</button>
+              </th>
+              <td>29RFKE</td>
+              <td class="product-name">OMEPRAZOL 20MGX30TABS</td>
+              <td >
+                <span class="cart-price cart-column">19.99</span>
+              </td>
+              <td>
+                 <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                    </div>
+              </td>
+              <td><span class="cart-subtotal">50.88</span></td>
+
+            </tr> 
+
+            <tr class= "cart-row">
+              <th scope="row">
+               <button class="btn btn-danger" type="button">X</button>
+              </th>
+              <td>29RFKE</td>
+              <td class="product-name">OMEPRAZOL 20MGX30TABS</td>
+               <td >
+                <span class="cart-price cart-column">19.99</span>
+              </td>
+              <td>
+                 <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                 </div>
+              </td>
+              <td><span class="cart-subtotal">50.88</span></td>
+            -->
+
+                              
+          </tbody>
+        </table>
+      </div>
+
+      <div class="row mx-auto">
+
+        <div class="tipoCliente col-4">
+          <select class="custom-select">
+            <option value="1">Cliente</option>
+            <option value="2">Consumidor Final</option>
+          </select>
+        </div>        
+
+        <!--div class="tipoCliente col-4">
+            <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Tipo de Cliente
+            </button> 
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 38px, 0px);">
+              <button class="dropdown-item" type="button">Cliente</button>
+              <button class="dropdown-item" type="button">Consumidor Final</button>
+            </div>
+        </div>
+        </div-->
+
+
+      <div class="pago col-4">
+      <table class="tabla-detalleventa">
+        <tbody>
+          <tr>
+          <td>Total</td>
+          <td class ="detalleventa" id="cart-total-price" >0.00</td>
+          </tr>
+          <tr>
+            <td>Valor Recibido</td>
+            <td class ="detalleventa">  
+              <input id="valor-recibido" class="cart-quantity-input" type="number" value="0" step="0.01">
+            </td>
+          </tr>
+          <tr>
+            <td>Cambio</td>
+            <td class ="detalleventa" id="cambio" >0.00</td>
+          </tr>
+        </tbody>
+        </table>
+      
+      </div>
+
+      
+        <div class="justify-content-center align-items-center flex-column ">
+          <button id="finalizar" type="button" class="btn btn-success">Finalizar</button>
+        
+
+          <button id="cancelar" type="button" class="btn btn-info">Cancelar</button>
+        </div>
+        
+    
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+  <div class="row justify-content-center pt-2 pb-4" id="Buscador">
+    <div class="col-10 col-md-8 col-lg-6">
+    <form class="card card-sm ">
+           <div class="card-body row no-gutters align-items-center">
+               <!--end of col-->
+               <div class="col">
+                  <input id="busqueda" class="form-control form-control-lg form-control-borderless" type="search" placeholder="Filtrar Productos">
+               </div>
+              <!--end of col-->
+               <div class="col-auto pl-2">
+                 <button class="btn btn-lg btn-success" type="submit" id="Buscar">Buscar</button>
+              </div>
+             <!--end of col-->
+           </div>
+    </form>
+
+    </div>
+  </div>
+
+
+  <div id="container" class="row  text-center ">  
+	 		<div class="col-md-3" id="1">
+
+	 			<div class="card mb-4 shadow-sm border-top-0 border-right-0 border-bottom-0 border-info">
+	 				<img class="card-img-top" id="adv" src="https://images-na.ssl-images-amazon.com/images/I/41bkSGx4-sL._SY355_.jpg" alt="">
+	 				<div class="card-body">
+	 					<h5 class="card-title">CREMA EUCERIN PHS MANOSSX75ML</h5>
+	 					<p class="card-text">Suaviza y proteger las manos de la resequedad por largo tiempo</p>
+	 					<div class="d-flex justify-content-between align-items-center">
+	 					<small class="text-muted">$11.33 </small>
+             <button class="btn btn-primary shop-item-button" type="button">Añadir</button>
+	 					</div>
+	 				</div>
+
+
+	 			</div>
+
+	 		</div>
+	 	 
+	
+	 	</div>
+
+     <div class="container-fluid">
+          <br>
+          <nav>
+            <ul class="pagination pagination-md justify-content-end">
+              <!-- div data-intro="Cambiar entre pestañas de productos" data-step="4"-->
+                <li class="page-item  " id="PrePage">
+                  <a href="javascript:void(0)" class="page-link">«</a>
+                </li>
+              <!--/div-->
+            </ul>
+          </nav>
+      </div>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/scripts/ventas.js" async></script>
+  <script src="/scripts/getDataVenta.js"></script>
+
+
+</body>
+
+</html>
